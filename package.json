@@ -1,28 +1,34 @@
 {
-  "name": "${PROJECT_NAME}",
-  "version": "0.0.0",
-  "description": "",
-  "license": "BSD-3-Clause",
+  "name": "TypeScript-boilerplate",
+  "version": "2.1.0",
+  "description": "Boilerplate for starting a TypeScript 2.2 project",
+  "license": "MPL-2.0",
   "main": "main.js",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/devpaul/TypeScript-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "dependencies": {
+    "url": "git@github.com:devpaul/TypeScript-boilerplate.git"
   },
   "devDependencies": {
-    "dts-generator": "1.4.1",
-    "grunt": "0.4.5",
-    "grunt-contrib-clean": "0.6.0",
-    "grunt-contrib-copy": "0.8.0",
-    "grunt-contrib-watch": "0.6.1",
-    "grunt-text-replace": "0.4.0",
-    "grunt-ts": "3.0.0",
-    "grunt-tslint": "2.0.0",
-    "tslint": "2.1.1",
-    "typescript": "Arnavion/typescript-github#2015-05-23-711886e09994eda5bafa9383d92954242fc342c5"
+    "@dojo/loader": "^2.0.0-beta.9",
+    "@types/grunt": "^0.4.21",
+    "@types/node": "^7.0.5",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-shell": "^2.1.0",
+    "grunt-tslint": "^4.0.0",
+    "intern": "^3.4.2",
+    "load-grunt-tasks": "^3.5.2",
+    "stylus": "^0.54.5",
+    "ts-node": "^2.1.0",
+    "tslint": "^4.4.2",
+    "tslint-sitepen": "^0.1.0",
+    "typescript": "^2.1.6",
+    "webserv": "^0.6.1"
   }
 }

@@ -1,2 +1,1 @@
-// Add functional tests here
-// import './myFunctionalTest';
+import './Application';

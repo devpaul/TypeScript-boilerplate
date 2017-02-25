@@ -1,31 +1,30 @@
-# Typescript Template
+[![Build Status](https://travis-ci.org/devpaul/TypeScript-boilerplate.svg?branch=master)](https://travis-ci.org/devpaul/TypeScript-boilerplate)
 
-This project has been generated from a template.
+# Typescript Boilerplate
+
+This project provides an environment for creating a complete TypeScript application
 
 ## Update these things
 
 ### Right Away
 * package.json
-* LICENSE
+	* name
+	* version
+	* bugs
+	* repository
+* LICENSE (Unless you like the MPL-2.0)
 * README.md
-* tests/intern.ts (capabilities.project)
-
-### Maybe later
-* .jshintjc - @see http://jshint.com/docs/options/
-* .jscsrc - @see http://jscs.info/rules.html
-* tslint.json - @see https://github.com/palantir/tslint#supported-rules
 
 ## Quick Start
 
 * `npm install`
+* `grunt dev`
+* `grunt serve`
+* open http://localhost:8888
 
-## Grunt Commands
+### Useful Grunt Commands
 
-* `grunt lint` - validates style rules
-* `grunt test` - runs intern's node client
-* `grunt test-local` - runs intern's runner with local configuration
-* `grunt test-proxy` - starts intern's testing proxy
-* `grunt test-runner` - runs intern's runner
 * `grunt ci` - runs tests in a continuous integration environment
 * `grunt clean` - cleans development work
-* `grunt` - compiles files
+* `grunt test` - runs intern's browser tests (requires selenium)
+* `grunt dev` - builds the application and tests

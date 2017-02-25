@@ -1,0 +1,22 @@
+{
+	"version": "2.1.0",
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "..",
+		"module": "umd",
+		"noImplicitUseStrict": true,
+		"outDir": "../_build/tests",
+		"target": "ES5",
+		"paths": {
+			"app/*": [
+				"./_build/app/*"
+			]
+		}
+	},
+	"files": [
+		"../node_modules/intern/typings/intern/intern.d.ts"
+	],
+	"include": [
+		"**/*.ts"
+	]
+}
