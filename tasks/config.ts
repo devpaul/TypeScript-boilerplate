@@ -41,7 +41,7 @@ export const intern = {
 	ci: {
 		options: {
 			runType: 'runner',
-			config: '<%= targetDirectory %>/<%= testsDirectory %>/intern.ci',
+			config: '<%= targetDirectory %>/<%= testsDirectory %>/intern-ci',
 			reporters: [
 				'Runner', 'LcovHtml'
 			]
