@@ -1,10 +1,15 @@
 export * from './intern';
 
+export const capabilities = {
+	'name': 'TypeScript Boilerplate'
+};
+
 export const environments = [
-	{ browser: 'IE', browser_version: '11', os: 'WINDOWS' },
-	{ browser: 'Firefox', version: 'latest-1..latest' },
-	{ browser: 'Chrome', version: 'latest-1..latest' },
-	{ browser: 'Safari', browser_version: 'latest', os: 'OS X' }
+	{ browserName: 'internet explorer', version: '11.0', platform: 'Windows 7' },
+	{ browserName: 'MicrosoftEdge', version: 'latest', platform: 'Windows 10' },
+	{ browserName: 'firefox', version: 'latest' },
+	{ browserName: 'chrome', version: 'latest' },
+	{ browserName: 'safari', version: 'latest' }
 ];
 
 export const maxConcurrency = 2;
